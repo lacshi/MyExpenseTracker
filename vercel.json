@@ -6,7 +6,8 @@
         },
         "backend": {
             "root": "backend",
-            "entrypoint": "api/index.js"
+            "entrypoint": "api/index.js",
+            "buildCommand": "npx prisma generate"
         }
     },
     "rewrites": [
