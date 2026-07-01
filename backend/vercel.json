@@ -1,0 +1,5 @@
+{
+    "buildCommand": "npx prisma generate",
+    "framework": "node",
+    "outputDirectory": "."
+}
