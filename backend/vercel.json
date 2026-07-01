@@ -1,5 +1,6 @@
 {
     "buildCommand": "npx prisma generate",
-    "framework": "node",
+    "framework": "express",
+    "entrypoint": "src/index.js",
     "outputDirectory": "."
 }
